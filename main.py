@@ -60,12 +60,6 @@ cohort = []
 
 # Iterate over cohort printing out each element.
 
-# for student in students:
-#     new_dict = {}
-#     new_dict['student'] = student
-#     new_dict['fav_food'] = food[:]
-#     cohort.append(new_dict.copy())
-
 for i, student in enumerate(students):
     cohort.append({'student': student, 'fav_food': foods[i]})
 
